@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202020;
+}
+
+.google{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-google{
+    width: 230px;
+    height: auto;
+    margin-top: 70px;
+}
+
+.image_Search{
+    position: absolute;
+    top: 105%;
+    width: 592px;
+    height: 362px;
+    border-radius: 24px;
+    background-color: #303134;
+}
+/*headline*/
+.Google_Lens_headline{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Google_Lens_headline h4{
+    font-size: 16px;
+    color: rgb(241, 243, 244);
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: .1px;
+}
+
+.Google_Lens_headline .the_X_icon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding-top: 7px;    
+}
+/*headline*/
+
+/*Searchbar*/
+.the_input_fild {
+    position: absolute;
+    border-radius: 8px;
+    width: 552px;
+    height: 280px;
+    top: 55px;
+    right: 15px;
+    left: 19px;
+    background-color: #202124;
+}
+
+/*the image of the google search*/
+.google_lens{
+    position: absolute;
+    top: 10px;
+    left: 155px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.google_lens p{
+    color: #93969b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    gap: 15px;
+}
+
+.accounter_for_the_input{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.accounter_for_the_input .Sucheleiste{
+    height: 46px;
+    width: 395px;
+    font-size: 16px;
+    border: 1px solid #202020;
+    background-color: transparent;
+    padding-left: 40px;
+    border-radius: 24px;
+    color: #D9D9D9; /*text color*/
+}
+
+.Sucheleiste,.Sucheleiste_box{
+    bottom: 40px;
+}
+
+/*The two Button for Search*/
+.Search_button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    bottom: -30px;
+}
+
+.search_ig{
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: "Albert Sans", sans-serif;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Feeling_Luck{
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: "Albert Sans", sans-serif;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+/*The two Button for Search*/
+
+.accounter_for_the_input .Sucheleiste_box {
+    position: relative;
+    height: 46px;
+    width: 439px;
+    max-width: 584px;
+    border-radius: 24px;
+    background: #28292a;
+    display: flex;
+    align-items: center;
+    bottom: -17px;
+}
+
+/*The icons for the Searchbar*/
+.icons{
+    position: absolute;
+    right: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.search_icon{
+    position: absolute;
+    right: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Mic_icon, .img_icon{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+/*Andere Suche optionen, das Konto des benutzers*/
+.AndereSOP{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Suche-option{
+    margin-right: 20px;
+}
+
+.Suche-option a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #D9D9D9;
+}
+
+.konto-option{
+    display: flex;
+    align-items: center;
+}
+
+.konto-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+svg{
+    margin-right: 10px;
+}
+/*Andere Suche optionen, das Konto des benutzers*/
