@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202020;
+}
+
+.google {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-google {
+    width: 230px;
+    height: auto;
+    margin-top: 70px;
+}
+
+.image_Search {
+    position: absolute;
+    top: 105%;
+    width: 592px;
+    height: 362px;
+    border-radius: 24px;
+    background-color: #303134;
+}
+
+/* Headline */
+.svg {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 7px; 
+    right: 30px;
+}
+
+/* Searchbar */
+.lens-input {
+    position: absolute;
+    left: 199px;
+    bottom: 95px;
+}
+
+.the_input_fild {
+    position: absolute;
+    border-radius: 8px;
+    width: 552px;
+    height: 280px; 
+    top: 55px;
+    right: 15px;
+    left: 19px;
+    background-color: #202124;
+}
+
+/* Drag and Drop Element */
+.google_lens {
+    border: 2px dashed #ccc;
+    padding-top: 60px;
+    padding-right: 110px;
+    padding-left: 110px;
+    padding-bottom: 60px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.google_lens.dragging {
+    border-color: #007bff;
+    background-color: #e9f5ff;
+}
+
+.google_lens p {
+    color: #93969b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 15px 0; 
+}
+
+/* Input-Bereich */
+.accounter_for_the_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -43px;
+    position: relative;
+}
+
+.accounter_for_the_input .Sucheleiste {
+    height: 32px; 
+    width: 395px;
+    font-size: 16px;
+    border: 1px solid #202020;
+    background-color: transparent;
+    padding-left: 40px;
+    border-radius: 24px;
+    color: #D9D9D9; /* Textfarbe */
+}
+
+.accounter_for_the_input .Sucheleiste_box {
+    position: relative;
+    height: 34px;
+    width: 439px;
+    max-width: 584px;
+    border-radius: 24px;
+    background: #202020;
+    display: flex;
+    align-items: center;
+}
+
+/* Icons */
+.icons {
+    position: absolute;
+    right: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.search_icon {
+    position: absolute;
+    right: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Mic_icon,
+.img_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+/* Andere Optionen und Benutzerkonto */
+.AndereSOP {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Suche-option {
+    margin-right: 20px;
+}
+
+.Suche-option a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: #D9D9D9;
+}
+
+.konto-option {
+    display: flex;
+    align-items: center;
+}
+
+.konto-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+svg {
+    margin-right: 10px;
+}
