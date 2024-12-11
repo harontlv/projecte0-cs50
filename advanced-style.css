@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202020;
+}
+
+.google{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-google{
+    width: 74px;
+    height: auto;
+    margin: 25px;
+}
+
+.advanced_Search{
+    position: absolute;
+    top: 105%;
+    width: 100%;
+}
+
+/* Andere Optionen Benutzerkonto */
+.AndereSOP{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Suche-option{
+    margin-right: 20px;
+}
+
+.Suche-option a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #d9d9d9;
+}
+
+.konto-option{
+    display: flex;
+    align-items: center;
+}
+
+.konto-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+svg{
+    margin-right: 10px;
+}
+/* Andere Optionen Benutzerkonto */
