@@ -24,6 +24,53 @@ body{
     width: 100%;
 }
 
+/*Überschrieft*/
+.labeldiv{
+    color: #f28b82;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid #303030;
+}
+/*Überschrieft*/
+
+/*Überschrieft für die Suche*/
+.headingtext{
+    position: relative;
+    justify-items: center;
+    display: flex;
+    margin: 25px 35px;
+}
+
+.headingpage{
+    height: 30px;
+    color: #e8eaed;
+}
+
+.placeholder{
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+
+.thesecondheading{
+    height: 30px;
+    color: #e8eaed;
+}
+/*Überschrieft für die Suche*/
+
+/*Für die Advanced Suche*/
+.advanced_imput{
+    margin: 25px 35px;
+}
+
+
+/*Für die Advanced Suche*/
+
 /* Andere Optionen Benutzerkonto */
 .AndereSOP{
     position: absolute;
