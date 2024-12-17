@@ -65,11 +65,64 @@ body{
 
 /*Für die Advanced Suche*/
 .advanced_imput{
+    max-width: 500px;
     margin: 25px 35px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+/* Eingabefeld-Wrapper */
+.imputdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.label-text{
+    color: #e8eaed;
+    margin-bottom: 5px;
+}
+
+/* Eingabefeld */
+.input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Hilfstext */
+.helper-text {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+/* Blaue Hervorhebung */
+.highlight {
+    color: #0078D7;
+    font-weight: bold;
+}
+
+/* Such-Button */
+.button_for_the_search {
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #0078D7; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button_for_the_search:hover {
+    background-color: #005a9e;
+}
 /*Für die Advanced Suche*/
+
 
 /* Andere Optionen Benutzerkonto */
 .AndereSOP{

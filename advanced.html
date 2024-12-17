@@ -30,23 +30,33 @@
             <!--Das Suche feld für die Suche-->
             <div class="advanced_imput">
                 <form id="searchfrom" action="/search" method="GET">
-                    <label for="allthesewords">all these Words</label>
-                    <input type="text" id="allthesewords" name="allthesewords"><br><br>
-                    <div class="textdivallwords">Enter the most important words: <span class="allwordscolor">smooth-haired fox terrier tricolor</span></div>
+                    <!--Das sind die einzelnen Suchfelder für die Suche.-->
+                    <div class="imputdiv">
+                        <label class="label-text" for="allthesewords">all these Words:</label>
+                        <input class="input-field" type="text" id="allthesewords" name="allthesewords"><br><br>
+                        <div class="helper-text">Enter the most important words: <span class="highlight">smooth-haired fox terrier tricolor</span></div>
+                    </div>
 
-                    <label for="thisWordsphrase">this exact Words or phrase</label>
-                    <input type="text" id="thisWordsphrase" name="thisWordsphrase"><br><br>
-                    <div class="textdivphrase">Put the words you're looking for between quotation marks: <span class="thiswordscolor">"smooth-haired terrier"</span></div>
+                    <div class="imputdiv">
+                        <label class="label-text" for="thisWordsphrase">this exact Words or phrase:</label>
+                        <input class="input-field" type="text" id="thisWordsphrase" name="thisWordsphrase"><br><br>
+                        <div class="helper-text">Put the words you're looking for between quotation marks: <span class="highlight">"smooth-haired terrier"</span></div>
+                    </div>
 
-                    <label for="anytheseWords">any of these Words</label>
-                    <input type="text" id="anytheseWords" name="anytheseWords"><br><br>
-                    <div class="textdivanywords">Enter OR between all searched words: <span class="anywordscolor">miniature OR standard</span></div>
+                    <div class="imputdiv">
+                        <label class="label-text" for="anytheseWords">any of these Words:</label>
+                        <input class="input-field" type="text" id="anytheseWords" name="anytheseWords"><br><br>
+                        <div class="helper-text">Enter OR between all searched words: <span class="highlight">miniature OR standard</span></div>
+                    </div>
 
-                    <label for="nonetheseWords">none of these Words</label>
-                    <input type="text" id="nonetheseWords" name="nonetheseWords"><br><br>
-                    <div class="textdivnonewords">Put a minus sign right before words you don't want to display: <span class="nonewordscolor">-wirehaired, -"jack russell"</span></div>
+                    <div class="imputdiv">
+                        <label class="label-text" for="nonetheseWords">none of these Words:</label>
+                        <input class="input-field" type="text" id="nonetheseWords" name="nonetheseWords"><br><br>
+                        <div class="helper-text">Put a minus sign right before words you don't want to display: <span class="highlight">-wirehaired, -"jack russell"</span></div>
+                    </div>
 
-                    <button type="search">Advanced Search</button>
+                    <button class="button_for_the_seach" type="submit">Advanced Search</button>
+                    <!--Das sind die einzelnen Suchfelder für die Suche.-->
                 </form>
             </div>
             <!--Das Suche feld für die Suche-->
