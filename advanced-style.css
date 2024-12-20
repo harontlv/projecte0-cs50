@@ -53,7 +53,7 @@ body{
     min-width: 167px;
     min-height: 41px;
     vertical-align: middle;
-    width: 50%;
+    width: 52%;
 }
 
 .thesecondheading{
@@ -85,6 +85,8 @@ form {
 .label-text{
     color: #e8eaed;
     margin-bottom: 5px;
+    min-width: 25%;
+    font-size: 13px;
 }
 
 /* Eingabefeld */
@@ -93,10 +95,14 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;
+    min-width: 100%;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 /* Hilfstext */
 .helper-text {
+    min-width: 80%;
     margin-top: 5px;
     font-size: 0.9em;
     color: #666;
@@ -108,14 +114,15 @@ form {
 }
 
 /* Such-Button */
-.button_for_the_search {
-    padding: 10px;
+form.button_for_the_search {
     font-size: 1em;
-    color: white;
+    color: #8ab4f8;
     background-color: #0078D7; 
-    border: none;
+    border: 5px;
     border-radius: 4px;
     cursor: pointer;
+    width: 50px;
+    margin: 10px 0px;
 }
 
 .button_for_the_search:hover {
