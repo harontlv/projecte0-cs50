@@ -50,10 +50,10 @@ body{
 }
 
 .placeholder{
-    min-width: 100px;
+    min-width: 167px;
     min-height: 41px;
     vertical-align: middle;
-    width: 5%;
+    width: 50%;
 }
 
 .thesecondheading{
@@ -76,8 +76,9 @@ form {
 
 /* Eingabefeld-Wrapper */
 .imputdiv{
+    position: relative;
     display: flex;
-    flex-direction: column;
+    justify-items: center;
 }
 
 /* Labels */
