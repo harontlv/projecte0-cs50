@@ -114,18 +114,19 @@ form {
 }
 
 /* Such-Button */
-form.button_for_the_search {
-    font-size: 1em;
-    color: #8ab4f8;
-    background-color: #0078D7; 
-    border: 5px;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 50px;
-    margin: 10px 0px;
+.button_for_the_seach {
+    align-self: flex-start; /* Button wird in der Mitte positioniert */
+    padding: 10px 20px;
+    font-size: 16px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
-.button_for_the_search:hover {
+.button_for_the_seach:hover {
     background-color: #005a9e;
 }
 /*Für die Advanced Suche*/
